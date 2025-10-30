@@ -21,7 +21,7 @@ os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 def doInternetSearch(query:str, topic:Literal['general', 'news', 'finance'] = 'general'):
     """
-    Perform an internet search using Tavily API.
+    Perform an internet search using Tavily API
     
     Args:
         query: The search query string
